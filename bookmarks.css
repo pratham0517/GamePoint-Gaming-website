@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0e0e0e;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #121212;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  border-bottom: 1px solid #ffa50030;
+  z-index: 10;
+  box-sizing: border-box;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.back-home {
+  color: #ffa500;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #ffa500;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.back-home:hover {
+  background-color: #ffa500;
+  color: #121212;
+}
+
+/* Main Container */
+.bookmarks-container {
+  padding: 100px 40px 40px;
+}
+
+.bookmarks-container h2 {
+  font-size: 28px;
+  color: #ffa500;
+  margin-bottom: 20px;
+  border-left: 4px solid #ffa500;
+  padding-left: 12px;
+}
+
+.no-bookmarks {
+  font-size: 18px;
+  color: #aaa;
+}

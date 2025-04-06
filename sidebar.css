@@ -1,0 +1,81 @@
+.sidebar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 250px;
+    height: calc(100vh - 60px);
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    padding: 20px;
+    overflow-y: auto;
+    border-right: 1px solid #2a2a2a;
+    z-index: 100;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #ff9900;
+}
+
+.filter {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 15px;
+}
+
+.filter h3 {
+    font-size: 1.1rem;
+    color: #ddd;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.filter label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.2s;
+}
+
+.filter label:hover {
+    color: #fff;
+}
+
+.filter input[type="checkbox"],
+.filter input[type="radio"] {
+    accent-color: #ff9900;
+    margin-right: 10px;
+}
+
+.filter select {
+    width: 100%;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    outline: none;
+    font-size: 0.95rem;
+}
+
+.apply-filters {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #ff9900, #e68a00);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+}
+
+.apply-filters:hover {
+    transform: scale(1.03);
+    background: linear-gradient(to right, #e68a00, #cc7a00);
+}
